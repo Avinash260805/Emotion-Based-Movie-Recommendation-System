@@ -26,12 +26,7 @@ st.markdown(
     div.stButton > button:hover {
         background-color: #104E8B;
     }
-    div[data-testid="stCameraInput"] > div > label {
-    color: white !important;           /* Change button text color */
-    font-weight: 600 !important;
-    /* Optional: add text shadow for better contrast */
-    text-shadow: 0 0 5px black;
-}
+   
     </style>
     """,
     unsafe_allow_html=True
@@ -93,6 +88,7 @@ if img_data:
     
     if st.session_state.movie_html:
         st.markdown(st.session_state.movie_html,unsafe_allow_html=True)
+
 
 
 
