@@ -1,0 +1,8 @@
+streamlit
+deepface
+git+https://github.com/serengil/retinaface.git
+opencv-python-headless
+numpy==1.24.3
+pillow
+requests
+tf-keras
